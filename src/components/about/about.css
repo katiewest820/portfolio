@@ -1,0 +1,76 @@
+.aboutSection{
+  background-color: #e5e2d3;
+  width: 100%;
+}
+
+.aboutHeader{
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  width: 75%;
+  margin:auto;
+}
+
+.aboutHeader h3{
+  justify-self: center;
+  font-family: 'Cinzel', serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #e7624d;
+}
+
+.aboutHeader span{
+  border-bottom: 4px solid #c5c3b5;
+  width: stretch;
+  align-self: center;
+  justify-self: center;
+}
+
+.aboutMeParagraphs{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  justify-content: center;
+  grid-gap: 50px;
+  margin: auto;
+  width: 70%;
+}
+
+.aboutMeParagraphs div{
+  padding: 5px;
+}
+
+.aboutMeParagraphs h3{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.aboutMeParagraphs p{
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+.mePicture{
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.mePicture img{
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+
+.mePicture h1{
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  top: 65%;
+  color: #e7624d;
+  font-size: 50px;
+  background-color: #e5e2d3;
+  opacity: .8;
+}
