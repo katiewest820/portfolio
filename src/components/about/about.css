@@ -16,6 +16,8 @@
   font-size: 35px;
   letter-spacing: 3px;
   color: #e7624d;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aboutHeader span{
@@ -50,7 +52,7 @@
   line-height: 150%;
 }
 .mePicture{
-  position: relative;
+  padding-top: 75px;
   width: fit-content;
   margin: auto;
 }
@@ -58,19 +60,32 @@
 .mePicture img{
   display: block;
   margin: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  height: 400px;
-  width: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 300px;
+  width: 300px;
   border-radius: 100%;
 }
 
 .mePicture h1{
   position: absolute;
   font-family: 'Cinzel', serif;
-  top: 65%;
+  top: 44%;
   color: #e7624d;
-  font-size: 50px;
-  background-color: #e5e2d3;
+  font-size: 40px;
   opacity: .8;
+}
+
+@media (min-width: 640px){
+
+  .mePicture img{
+    height: 400px;
+    width: 400px;
+  }
+
+  .mePicture h1{
+    font-size: 50px;
+    top: 55%;
+  }
+
 }

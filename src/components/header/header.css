@@ -3,6 +3,7 @@
   margin: 0;
   background-color: #e7624d;
   color: white;
+  position: fixed;
 }
 
 .headerShell h2{

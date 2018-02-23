@@ -1,0 +1,45 @@
+.contactSection{
+  background-color: #e7624d;
+  height: fit-content;
+  padding: 40px;
+  padding-top: 0;
+}
+
+.contactSection .aboutHeader h3{
+  color: #e5e2d3;
+}
+
+.contactSection h4{
+  color: #e5e2d3;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contactInfo{
+  display: grid;
+  width: 50%;
+  margin: auto;
+}
+
+.contactInfo div{
+  justify-self: center;
+}
+
+.contactInfo p{
+  margin: 5px 0px;
+}
+
+.gh{
+  padding-bottom: 7px;
+}
+
+@media (min-width: 640px){
+
+  .contactInfo{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}

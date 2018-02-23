@@ -1,8 +1,54 @@
 .projectsSection{
   background-color: #e5e2d3;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .projectsSection .aboutHeader span{
   width: 93%;
+}
+
+.acordionDiv{
+  margin: 20px;
+}
+
+.Collapsible{
+  padding: 10px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.Collapsible span{
+  font-size: 20px;
+}
+
+.portfolioLinks{
+  margin: auto;
+}
+.portfolioLinks img{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+
+.portfolioLinks img:hover{
+  opacity: .6;
+}
+
+.allProjectsContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  width: 85%;
+  margin: auto;
+}
+
+@media (min-width: 750px){
+
+  .portfolioLinks img{
+    height: 325px;
+    width: 325px;
+  }
+
 }
