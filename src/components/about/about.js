@@ -8,9 +8,10 @@ export default function App(){
     <div className="aboutSection">
       <div className="mePicture">
         <img src="./izzy.jpg"/>
-        <h1>Hello I'm Katie</h1>
+        <h1>Katie West</h1>
+        <p>Full Stack Developer | Artist | Outdoor Enthusiast | Dog Lover</p>
       </div>
-      <div>
+      {/*<div>
         <div className="aboutHeader">
           <span></span>
           <h3>About</h3>
@@ -48,7 +49,7 @@ export default function App(){
             essentially unchanged.</p>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }

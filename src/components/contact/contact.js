@@ -10,16 +10,9 @@ export default function Contact(){
         <span></span>
       </div>
       <div className="contactInfo">
-        <div>
-          <h4>Contact Me</h4>
-          <p>katiewest820@gmail.com</p>
-          <p>503-381-8629</p>
-        </div>
-        <div>
-          <h4>Lets Connect</h4>
-          <img className="gh" src={require('./github.png')} height="50"/>
-          <img src={require('./linkedin.png')} height="60"/>
-        </div>
+        <a href="mailto:katiewest820@gmail.com"><img src={require('./email.png')} height="50"/></a>
+        <img className="gh" src={require('./github.png')} height="50"/>
+        <img src={require('./linkedin.png')} height="60"/>
       </div>
     </div>
   );

@@ -1,16 +1,23 @@
 .headerShell{
   width: 100%;
   margin: 0;
-  background-color: #e7624d;
+  background-color: #101318;
   color: white;
-  position: fixed;
 }
 
 .headerShell h2{
   margin: 0;
   display: inline-block;
-  padding: 30px 0px 30px 40px;
+  padding: 20px 10px;
   font-family: 'Cinzel', serif;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+@media (min-width: 640px){
+
+  .headerShell h2{
+    font-size: 18px;
+    padding: 30px 0px 30px 40px;
+  }
 }

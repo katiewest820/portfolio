@@ -1,16 +1,16 @@
 .contactSection{
-  background-color: #e7624d;
   height: fit-content;
   padding: 40px;
   padding-top: 0;
 }
 
-.contactSection .aboutHeader h3{
-  color: #e5e2d3;
+.contactSection .aboutHeader{
+  width: 100%;
+  color: #dca046;
 }
 
 .contactSection h4{
-  color: #e5e2d3;
+  color: #101318;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -20,26 +20,15 @@
 
 .contactInfo{
   display: grid;
-  width: 50%;
-  margin: auto;
-}
-
-.contactInfo div{
-  justify-self: center;
-}
-
-.contactInfo p{
-  margin: 5px 0px;
-}
-
-.gh{
-  padding-bottom: 7px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+    grid-gap: 10px;
 }
 
 @media (min-width: 640px){
-
-  .contactInfo{
-    grid-template-columns: 1fr 1fr;
-  }
 
 }
