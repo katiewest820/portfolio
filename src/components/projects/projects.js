@@ -1,51 +1,55 @@
 import React from 'react';
 import './projects.css'
 import ProjectDetails from '../projectDetails/projectDetails';
+
 export default class Projects extends React.Component{
   constructor(){
     super()
     this.state = {
       title: [
-              'Mixology',
-              'Backcountry',
               'Baker & Spice',
+              'Backcountry',
+              'Mixology',
               'Ultimate Trivia',
               'Beers?'
             ],
       image: [
-              './mixology.png', 
-              './backcountry.png',
               './baker_spice.jpg',
+              './backcountry.png',
+              './mixology.png',
               './ultimate_trivia.jpg',
               './beers.png'
             ],
       link: [
-              'https://mixology-drink-recipes.netlify.com/', 
-              'https://protected-beach-53100.herokuapp.com/',
               'https://baker-and-spice.netlify.com/',
+              'https://protected-beach-53100.herokuapp.com/',
+              'https://mixology-drink-recipes.netlify.com/',
               'https://katiewest820.github.io/trivia_game/',
               'https://katiewest820.github.io/beers_brewery_search/#'
             ],
       about: [
-              'mixology about about about', 
-              'backcountry about about about',
-              'baker_spice about about about',
-              'Ultimate Trivia about about about',
-              'Beers about about about'
+              'Baker & Spice is a recipe building app that provides bakers with the tools they need to easily create new recipes and organize their kitchen.',
+              'Backcountry is a useful organization and collaboration app for backpackers who are planning a hiking trip and want a space to organize their trip details and collaborate with others.',
+              'Mixology is an app that returns drink recipes based on a drink name or ingredient search.',
+              'Ultimate Trivia is a fun and easy to use game app that asks trivia questions based on various category and difficulty levels that the player chooses.',
+              'Beers? is an app that returns brewery and pub search results based on your location and preferred beer type. '
             ],
       tech: [
-              'mixology tech tech tech', 
-              'backcountry tech tech tech',
-              'baker_spice tech tech tech',
-              'Ultimate trivia tech tech tech',
-              'Beers tech tech tech'
+              'HTML5, CSS3, Javascript, React, Redux, React Router, Redux Form, Redux Thunk, MongoDB, Mongoose, Node.js, Express, Enzyme, Jest, Mocha, Chai',
+              'HTML5, CSS3 Handlebars, Javascript, jQuery, MongoDB, Mongoose, Node.js Express, Mocha, Chai, Google Maps API',
+              'HTML5, CSS3, Javascript, React, Enzyme, Jest, Coctail DB API',
+              'HTML5, CSS3, Javascript, jQuery, Open Trivia DB API',
+              'HTML5, CSS3, Javascript, jQuery, Google Places API.'
             ],
       learned: [
-              'mixology learned learned learned',
-              'mixology learned learned learned',
-              'baker_spice learned learned learned',
-              'Ultimate trivia learned learned learned',
-              'Beers learned learned learned'
+              'In this project I grew in my React and Redux skills. After completing this project, I feel confident and excited to use React. ' +
+              'I also enjoyed implementing React Router, Redux Form, Redux Thunk and a variety of React animation libraries.',
+              'In building this project I grew in my comfort of building servers and databases, completing unit testing and implementing maps in a project.',
+              'This was the first React project that I built so it was really fun to grow more comfortable creating components, using React Router and other styling libraries.',
+              'This was a really fun project to build. I am a trivia fanatic so it was fun to create a simple game that I would use myself. ' +
+              'It was also fun to play around with CSS transitions and grow more comfortable with AJAX, Javascript and jQuery',
+              'This was the first front end project that I completed and it helped me with growing comfortable designing and ' +
+              'wireframing a project from scratch, reading API documentation and making AJAX calls.'
             ]
     }
   }

@@ -8,7 +8,7 @@
 
 .portfolioLinks{
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   align-items: center;
   width: 100%;
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
@@ -16,35 +16,39 @@
   padding-bottom: 50px;
   justify-content: center;
 }
+.grid-left, .grid-right{
+  padding: 0 6%;
+}
+.portfolioLinks h2{
+  color: #dca046;
+  font-size: 26px;
+  font-family: 'Cinzel', serif;
+}
+
+.portfolioLinks h4{
+  margin: 0;
+  padding-left: 15px;
+}
+
+.portfolioLinks p{
+  padding-left: 30px;
+}
 
 .projectsSection .aboutHeader span{
   width: 93%;
 }
 
-.Collapsible{
-  padding: 10px;
-  border: solid 1px black;
-  text-align: center;
-}
-
-.Collapsible span{
-  font-size: 20px;
-}
-
 .portfolioLinks img{
-  height: 250px;
-  width: 250px;
+  width: 280px;
   border-radius: 100%;
   display: block;
   margin: auto;
 }
 
-/*.allProjectsContainer{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  width: 85%;
-  margin: auto;
-}*/
+.portfolioLinks a{
+  text-align: center;
+  display: block;
+}
 
 button{
   background: none;
@@ -64,32 +68,41 @@ button:hover{
 
   .portfolioLinks{
     grid-template-columns: 1fr 1fr;
-    padding: 10% 25%;
+    padding: 10% 15%;
     grid-template-areas: 'left right';
     width: auto;
-}
+  }
+
+  .portfolioLinks h2{
+    font-size: 30px;
+  }
 
   .portfolioLinks img{
-    height: 325px;
-    width: 325px;
+    width: 400px;
+    align-self: center;
   }
 
   .grid-left{
     grid-area: left;
+    padding: 0;
   }
 
   .grid-right{
     grid-area: right;
+    padding: 0;
   }
 
   .portfolioLinks:nth-child(odd){
     grid-template-areas: 'right left';
   }
 
+  .portfolioLinks a{
+    text-align: justify;
+  }
+
   button{
     font-size: 20px;
     padding: 10px;
   }
-
 
 }

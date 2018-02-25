@@ -3,36 +3,6 @@
   padding-bottom: 30px;
 }
 
-
-
-
-
-/*.aboutMeParagraphs{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
-  justify-content: center;
-  grid-gap: 50px;
-  margin: auto;
-  width: 70%;
-}
-
-.aboutMeParagraphs div{
-  padding: 5px;
-}
-
-.aboutMeParagraphs h3{
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  font-size: 20px;
-}
-
-.aboutMeParagraphs p{
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 150%;
-} */
-
-
 .mePicture{
   width: fit-content;
   margin: auto;
@@ -76,7 +46,7 @@
   }
 
   .mePicture h1{
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .mePicture p{
