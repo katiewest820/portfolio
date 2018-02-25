@@ -3,29 +3,9 @@
   padding-bottom: 30px;
 }
 
-.aboutHeader{
-  display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
-  width: 85%;
-  margin:auto;
-}
 
-.aboutHeader h3{
-  justify-self: center;
-  font-family: 'Cinzel', serif;
-  font-size: 28px;
-  letter-spacing: 3px;
-  color: #dca046;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
-.aboutHeader span{
-  border-bottom: 4px solid #5f646d;
-  width: stretch;
-  align-self: center;
-  justify-self: center;
-}
+
 
 /*.aboutMeParagraphs{
   display: grid;
@@ -62,8 +42,8 @@
 .mePicture img{
   display: block;
   margin: auto;
-  height: 200px;
-  border-radius: 100%;
+  width: 300px;
+  border-radius: 25px;
   box-shadow: 0px 4px 6px 2px lightgrey
 }
 
@@ -92,6 +72,7 @@
 
   .mePicture img{
     height: 300px;
+    width: auto;
   }
 
   .mePicture h1{
@@ -101,14 +82,6 @@
   .mePicture p{
     font-size: 18px;
     width: 100%;
-  }
-
-  .aboutHeader{
-    width: 75%;
-  }
-
-  .aboutHeader h3{
-    font-size: 35px;
   }
 
 }

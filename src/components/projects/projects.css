@@ -53,6 +53,13 @@ button{
   padding: 8px;
 }
 
+button:hover{
+  color: #dca046;
+  border: solid 3px #dca046;
+  cursor: pointer;
+
+}
+
 @media (min-width: 750px){
 
   .portfolioLinks{
@@ -82,11 +89,6 @@ button{
   button{
     font-size: 20px;
     padding: 10px;
-  }
-
-  button:hover{
-    color: #dca046;
-    border: solid 3px #dca046;
   }
 
 

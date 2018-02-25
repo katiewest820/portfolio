@@ -3,20 +3,26 @@
   margin: 0;
   background-color: #101318;
   color: white;
+  padding: 20px 15px;
 }
 
-.headerShell h2{
-  margin: 0;
-  display: inline-block;
-  padding: 20px 10px;
+.headerShell a{
+  color: white;
+  padding: 10px;
   font-family: 'Cinzel', serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headerShell a:hover{
+  color: #dca046;
 }
 
 @media (min-width: 640px){
 
-  .headerShell h2{
+  .headerShell a{
     font-size: 18px;
     padding: 30px 0px 30px 40px;
   }
