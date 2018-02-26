@@ -35,9 +35,9 @@ export default class Projects extends React.Component{
               'Beers? is an app that returns brewery and pub search results based on your location and preferred beer type. '
             ],
       tech: [
-              'HTML5, CSS3, Javascript, React, Redux, React Router, Redux Form, Redux Thunk, MongoDB, Mongoose, Node.js, Express, Enzyme, Jest, Mocha, Chai',
-              'HTML5, CSS3 Handlebars, Javascript, jQuery, MongoDB, Mongoose, Node.js Express, Mocha, Chai, Google Maps API',
-              'HTML5, CSS3, Javascript, React, Enzyme, Jest, Coctail DB API',
+              'HTML5, CSS3, Javascript, React, Redux, React Router, Redux Form, Redux Thunk, MongoDB, Mongoose, Node.js, Express, Travis CI, Enzyme, Jest, Mocha, Chai',
+              'HTML5, CSS3 Handlebars, Javascript, jQuery, MongoDB, Mongoose, Node.js Express, Travis CI, Mocha, Chai, Google Maps API',
+              'HTML5, CSS3, Javascript, React, Travis CI, Enzyme, Jest, Coctail DB API',
               'HTML5, CSS3, Javascript, jQuery, Open Trivia DB API',
               'HTML5, CSS3, Javascript, jQuery, Google Places API.'
             ],
