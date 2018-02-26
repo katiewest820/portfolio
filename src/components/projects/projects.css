@@ -8,46 +8,35 @@
 
 .portfolioLinks{
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   align-items: center;
   width: 100%;
+  padding: 50px 30px;
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-  padding-top: 50px;
-  padding-bottom: 50px;
+
   justify-content: center;
-}
-.grid-left, .grid-right{
-  padding: 0 6%;
-}
-.portfolioLinks h2{
-  color: #dca046;
-  font-size: 26px;
-  font-family: 'Cinzel', serif;
-}
-
-.portfolioLinks h4{
-  margin: 0;
-  padding-left: 15px;
-}
-
-.portfolioLinks p{
-  padding-left: 30px;
 }
 
 .projectsSection .aboutHeader span{
   width: 93%;
 }
 
+.Collapsible{
+  padding: 10px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.Collapsible span{
+  font-size: 20px;
+}
+
 .portfolioLinks img{
-  width: 280px;
+  height: 250px;
+  width: 250px;
   border-radius: 100%;
   display: block;
   margin: auto;
-}
-
-.portfolioLinks a{
-  text-align: center;
-  display: block;
 }
 
 button{
@@ -61,43 +50,37 @@ button:hover{
   color: #dca046;
   border: solid 3px #dca046;
   cursor: pointer;
-
 }
 
-@media (min-width: 750px){
+.grid-left h2{
+  color: #dca046;
+}
+
+@media (min-width: 900px){
 
   .portfolioLinks{
     grid-template-columns: 1fr 1fr;
-    padding: 10% 15%;
+    padding: 10% 20%;
     grid-template-areas: 'left right';
     width: auto;
-  }
-
-  .portfolioLinks h2{
-    font-size: 30px;
-  }
+}
 
   .portfolioLinks img{
-    width: 400px;
+    height: 325px;
+    width: 325px;
     align-self: center;
   }
 
   .grid-left{
     grid-area: left;
-    padding: 0;
   }
 
   .grid-right{
     grid-area: right;
-    padding: 0;
   }
 
   .portfolioLinks:nth-child(odd){
     grid-template-areas: 'right left';
-  }
-
-  .portfolioLinks a{
-    text-align: justify;
   }
 
   button{

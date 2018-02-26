@@ -42,14 +42,15 @@ export default class Projects extends React.Component{
               'HTML5, CSS3, Javascript, jQuery, Google Places API.'
             ],
       learned: [
-              'In this project I grew in my React and Redux skills. After completing this project, I feel confident and excited to use React. ' +
+              'While building this app I really grew in my React and Redux knowledge. After completing this project, I feel confident and excited to use React. ' +
               'I also enjoyed implementing React Router, Redux Form, Redux Thunk and a variety of React animation libraries.',
               'In building this project I grew in my comfort of building servers and databases, completing unit testing and implementing maps in a project.',
-              'This was the first React project that I built so it was really fun to grow more comfortable creating components, using React Router and other styling libraries.',
-              'This was a really fun project to build. I am a trivia fanatic so it was fun to create a simple game that I would use myself. ' +
+              'My goal in building this app was to create a React app without Redux because I wanted to be comfortable managing state both ways.' +
+              'This project helped me grow more comfortable with React concepts and gave me a better sense of how to efficiently structure components.',
+              'I am a trivia fanatic so it was fun to build a simple game that I would use myself. ' +
               'It was also fun to play around with CSS transitions and grow more comfortable with AJAX, Javascript and jQuery',
-              'This was the first front end project that I completed and it helped me with growing comfortable designing and ' +
-              'wireframing a project from scratch, reading API documentation and making AJAX calls.'
+              'This project was really fun to build and I learned so much throughout the process. My understanding of javascript grew significantly and ' +
+              'I became much more comfortable designing and wireframing a project from scratch, reading API documentation and making AJAX calls.'
             ]
     }
   }

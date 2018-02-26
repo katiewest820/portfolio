@@ -1,6 +1,7 @@
 .contactSection{
   height: fit-content;
-  padding: 40px;
+  padding: 10px;
+  padding-bottom: 20px;
   padding-top: 0;
 }
 
@@ -79,6 +80,7 @@
 
   .toTop{
     font-size: 18px;
+    padding-left: 20px;
   }
 
 }
