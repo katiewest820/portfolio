@@ -36,7 +36,7 @@ export default class Projects extends React.Component{
             ],
       tech: [
               'HTML5, CSS3, Javascript, React, Redux, React Router, Redux Form, Redux Thunk, MongoDB, Mongoose, Node.js, Express, Travis CI, Enzyme, Jest, Mocha, Chai',
-              'HTML5, CSS3 Handlebars, Javascript, jQuery, MongoDB, Mongoose, Node.js Express, Travis CI, Mocha, Chai, Google Maps API',
+              'HTML5, CSS3 Handlebars, Javascript, jQuery, MongoDB, Mongoose, Node.js, Express, Travis CI, Mocha, Chai, Google Maps API',
               'HTML5, CSS3, Javascript, React, Travis CI, Enzyme, Jest, Coctail DB API',
               'HTML5, CSS3, Javascript, jQuery, Open Trivia DB API',
               'HTML5, CSS3, Javascript, jQuery, Google Places API.'
@@ -48,7 +48,7 @@ export default class Projects extends React.Component{
               'My goal in building this app was to create a React app without Redux because I wanted to be comfortable managing state both ways.' +
               'This project helped me grow more comfortable with React concepts and gave me a better sense of how to efficiently structure components.',
               'I am a trivia fanatic so it was fun to build a simple game that I would use myself. ' +
-              'It was also fun to play around with CSS transitions and grow more comfortable with AJAX, Javascript and jQuery',
+              'It was also fun to play around with CSS transitions and grow more comfortable with AJAX, Javascript and jQuery.',
               'This project was really fun to build and I learned so much throughout the process. My understanding of javascript grew significantly and ' +
               'I became much more comfortable designing and wireframing a project from scratch, reading API documentation and making AJAX calls.'
             ]
