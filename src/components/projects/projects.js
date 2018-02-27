@@ -56,7 +56,7 @@ export default class Projects extends React.Component{
   }
   render(){
     return (
-      <div id="projectsSection" className="projectsSection">
+      <div id="projects" className="projectsSection">
         <div className="allProjectsContainer">
           <ProjectDetails 
             title={this.state.title[0]}
