@@ -16,9 +16,11 @@ export default function App(){
         <span></span>
       </div>
       <div className="bio">
-        <p>I am a Portland Oregon based developer who is driven and passionate about learning. I enjoy collaborating with others, love the challenge
-        of learning a new language or framework and am addicted to solving problems that just don't make sense.
-          I strive to always produce clean and efficient code that is easy to understand.</p>
+        <p>I am a Portland based developer who is driven and passionate about programming.
+          I enjoy learning new languages and frameworks and I actively seek out educational opportunities that
+          keep me up-to-date on industry trends.
+          I pride myself in having a collaborative and open minded attitude, a passion for design and programming and a drive to produce
+          high quality, user friendly interfaces built with clean and maintainable code.</p>
         <p>When I'm not coding, I love to hike and camp with my dog Izzy, drink delicious PNW IPA's and lose at trivia at my neighborhood pub.
         I hope you enjoy looking at my projects as much as I have enjoyed building them!</p>
       </div>
