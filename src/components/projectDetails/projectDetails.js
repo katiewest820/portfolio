@@ -9,11 +9,10 @@ export default function projectDetails(props){
         <h2>{props.title}</h2>
         <h4>About This Project</h4>
         <p>{props.about}</p>
-        <h4>What I Learned</h4>
-        <p>{props.learned}</p>
         <h4>Technology Used</h4>
         <p>{props.tech}</p>
         <a href={props.link} target="_blank"><button>See Live Site</button></a>
+        <a href={props.github} target="_blank"><button>See Code</button></a>
       </div>
     </div>
   );

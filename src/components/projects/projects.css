@@ -1,5 +1,5 @@
 .portfolioLinks:nth-child(odd){
-  background-color: #5f646d;
+  background-color: #74767a;
 }
 
 .projectsSection{
@@ -11,9 +11,8 @@
   grid-gap: 30px;
   align-items: center;
   width: 100%;
-  padding: 50px 30px;
+  padding: 100px 20px;
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-
   justify-content: center;
 }
 
@@ -21,20 +20,8 @@
   width: 93%;
 }
 
-.Collapsible{
-  padding: 10px;
-  border: solid 1px black;
-  text-align: center;
-}
-
-.Collapsible span{
-  font-size: 20px;
-}
-
 .portfolioLinks img{
-  height: 250px;
-  width: 250px;
-  border-radius: 100%;
+  width: 325px;
   display: block;
   margin: auto;
 }
@@ -44,6 +31,7 @@ button{
   border: solid black 3px;
   font-size: 16px;
   padding: 8px;
+  margin-right: 10px;
 }
 
 button:hover{
@@ -56,7 +44,16 @@ button:hover{
   color: #dca046;
 }
 
-@media (min-width: 900px){
+.grid-left h2, .grid-right h2{
+  font-size: 30px;
+}
+
+.grid-left, .grid-right{
+  margin: 0% 5%;
+  max-width: 700px;
+}
+
+@media (min-width: 1300px){
 
   .portfolioLinks{
     grid-template-columns: 1fr 1fr;
@@ -66,19 +63,23 @@ button:hover{
 }
 
   .portfolioLinks img{
-    height: 325px;
-    width: 325px;
-    align-self: center;
+    width: 450px;
   }
 
   .grid-left{
     grid-area: left;
+    margin: 0;
   }
 
   .grid-right{
     grid-area: right;
+    margin: 0;
   }
 
+  .grid-left h2, .grid-right h2{
+    font-size: 35px;
+    margin: 0px;
+  }
   .portfolioLinks:nth-child(odd){
     grid-template-areas: 'right left';
   }
